@@ -2,7 +2,7 @@
   "name": "node-server",
   "version": "1.0.0",
   "description": "A simple server using node",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/pstackebrandt/node-server/issues"
   },
-  "homepage": "https://github.com/pstackebrandt/node-server#readme"
+  "homepage": "https://github.com/pstackebrandt/node-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
